@@ -1,16 +1,16 @@
 public class App {
 
-    int age =27;
-    double weight = 80;
-    boolean isStudent = true;
-    char gender= 'M';
-    String name ="AKOU";
+    static int age =27;
+    static double weight = 80;
+    static boolean isStudent = true;
+    static char gender= 'M';
+    static String name ="AKOU";
 
-    public void displayInfo() {
-        System.out.println("age"+age+"weight"+weight+"isStudent"+isStudent+"gender"+gender+"name"+name);     
+    public static void displayInfo() {
+        System.out.println("age "+age+"; weight "+weight+"; isStudent "+isStudent+"; gender "+gender+"; name "+name);     
     }
     public static void main(String[] args){
 
-        // App.displayInfo();
+         displayInfo();
     }
 }
